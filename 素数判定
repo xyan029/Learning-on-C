@@ -1,0 +1,15 @@
+int main()
+{
+    int a,k;
+    printf("请输入一个整数");
+    scanf("%d",&a);
+    for(k=2;k<=a-1;k++)
+        if(a%k==0)
+        {
+            break;
+        }
+    if(a==k)
+        printf("这是个素数\n");
+    else
+        printf ("这不是素数\n");
+}
