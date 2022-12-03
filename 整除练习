@@ -1,0 +1,17 @@
+#include<stdio.h>
+main()
+{
+	int n;
+    printf("200以内能被3整除的数有：\n");
+	for(n=1;n<=200;n++)	
+		if(n%3==0)printf("%d ",n);
+		printf("\n");
+	 printf("200以内能被3整除的数有：\n");
+		for(n=1;n<=200;n++)
+		if(n%7==0)printf("%d  ",n);
+		printf("\n");
+    printf("200以内能被3整除的数有：\n") ;
+	for(n=1;n<=200;n++)
+		if(n%21==0)printf("%d  ",n);
+		printf("\n");
+}
